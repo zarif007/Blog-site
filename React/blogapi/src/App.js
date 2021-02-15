@@ -21,7 +21,7 @@ function App() {
   }, [setAppState]);
   return (
       <div className='App'>
-        <h1>Leatest post</h1>
+        <h1>Leatest posts</h1>
         <PostLoading isLoading={appState.loading} posts={appState.posts} />
       </div>
   )

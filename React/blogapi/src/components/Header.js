@@ -24,7 +24,7 @@ function Header() {
 			>
 				<Toolbar>
 					<Typography variant="h6" color="inherit" noWrap>
-						BlogmeUp
+						Blogy
 					</Typography>
 				</Toolbar>
 			</AppBar>

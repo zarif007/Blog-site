@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from blog.models import Post
+from rest_framework import generics
+from .models import EndPoints
+from .serializers import EndPointsSerializer
 
-# Create your views here.
+class ListEndPoints(generics.ListAPIView):
+    queryset = EndPoints.objects.all()
+    serializer_class = EndPointsSerializer
